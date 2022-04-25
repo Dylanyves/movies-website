@@ -1,0 +1,7 @@
+export { default as Details } from './Details'
+export { default as Header } from './Header'
+export { default as Overview } from './Overview'
+export { default as RelatedList } from './RelatedList'
+export { default as Reviews } from './Reviews'
+export { default as Stats } from './Stats'
+export { default as Trailer } from './Trailer'
