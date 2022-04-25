@@ -9,7 +9,7 @@ function Details({ type, data }) {
 
             <div className="border-b py-3 border-slate-500">
                 <span className="mr-1">Homepage: </span>
-                {data.homepage ? <a target="_blank" className="text-blue-400" href="https://www.spidermannowayhome.data">{data.homepage}</a> : <span>None</span>}
+                {data.homepage ? <a target="_blank" rel="noreferrer" className="text-blue-400" href="https://www.spidermannowayhome.data">{data.homepage}</a> : <span>None</span>}
             </div>
 
             <div className="border-b py-3 border-slate-500">

@@ -14,7 +14,7 @@ function Body({ type, list, title }) {
                 </header>
                 {(list.results && list.results.length > 0) ? <section className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 gap-4">
                     {list.results.map(item => (
-                        <Link key={item.id} href={`/${type.toLowerCase()}/${item.id}`}>
+                        <Link passHref key={item.id} href={`/${type.toLowerCase()}/${item.id}`}>
                             <div className="relative cursor-pointer rounded-sm group min-h-[261px]">
                                 <img className="h-full w-full object-cover" src={item.poster_path ? `https://image.tmdb.org/t/p/w185/${item.poster_path}` : 'https://www.chanchao.com.tw/images/default.jpg'} alt={item.original_title} />
                                 <div className="absolute top-0 left-0 flex gapx-2 bg-yellow-600 rounded-br-sm">

@@ -7,8 +7,7 @@ function index({ genres }) {
             <div className="max-w-7xl px-4 py-6 m-auto text-white">
                 <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
                     {genres.genres.map(genre => (
-
-                        <Link href={`genre/${genre.name.toLowerCase().replace(" ", "-")}/1`}>
+                        <Link passHref key={genre.name} href={`genre/${genre.name.toLowerCase().replace(" ", "-")}/1`}>
                             <li className="hover:text-yellow-500 cursor-pointer md:text-xl rounded-sm bg-slate-800 inline-flex px-4 py-8" key={genre.id}>
                                 <span className="w-full text-center">{genre.name}</span>
                             </li>
