@@ -1,6 +1,6 @@
 import { TYPE_VARS } from '/vars'
 import { getTvDetails, getTvTrailerLink, getTvReviews, getSimilarTvs } from '/services/index'
-import { Details, Header, Overview, RelatedList, Reviews, Trailer } from '/components/detailsPage/index'
+import { Details, Header, Overview, RelatedList, Reviews, Trailer } from '/components/DetailsPage/index'
 
 function TVDetails({ data }) {
     return (

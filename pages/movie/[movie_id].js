@@ -1,6 +1,6 @@
 import { TYPE_VARS } from '/vars'
 import { getMovieDetails, getMovieTrailerLink, getMovieReviews, getSimilarMovies } from '/services/index'
-import { Details, Header, Overview, RelatedList, Reviews, Trailer, Stats } from '/components/detailsPage/index'
+import { Details, Header, Overview, RelatedList, Reviews, Trailer, Stats } from '/components/DetailsPage/index'
 
 function MovieDetails({ data }) {
     return (
