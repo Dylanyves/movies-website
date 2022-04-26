@@ -6,14 +6,13 @@ import { Helmet } from "react-helmet"
 function MovieDetails({ data }) {
     return (
         <div className="min-h-[90vh] bg-slate-700">
-            <Helmet>
+            {/* <Helmet>
                 <title>{data.movie.original_title}</title>
                 <meta name="description" content={data.movie.overview} />
                 <meta property="og:image" content={data.movie.poster_path ? `https://image.tmdb.org/t/p/w185/${data.movie.poster_path}` : "https://www.chanchao.com.tw/images/default.jpg"} />
                 <meta name="keywords" content={data.movie.original_title} />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-            </Helmet>
+            </Helmet> */}
             <div className="max-w-7xl px-4 py-6 m-auto text-white">
                 <Header type={TYPE_VARS.MOVIE} data={data.movie} />
                 <Trailer trailerLink={data.trailerLink} />
