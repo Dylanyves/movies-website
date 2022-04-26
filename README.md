@@ -5,7 +5,7 @@ Link to the website --> [https://movies-website-alpha.vercel.app/](https://movie
 
 #### Images
 
-![](/images/movies-website-1.png)
-![](/images/movies-website-2.png)
-![](/images/movies-website-3.png)
-![](/images/movies-website-4.png)
+![](images/movies-website-1.png)
+![](images/movies-website-2.png)
+![](images/movies-website-3.png)
+![](images/movies-website-4.png)
